@@ -1,0 +1,124 @@
+body{
+
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin: 0;
+	padding: 0;
+
+}
+
+#conteudo{
+
+margin: 20px auto;
+width: 80%;
+
+	
+	
+}
+
+.topo{
+
+	height: 70px;
+	position: relative;
+	display: block;
+	background-color: #fff;
+
+}
+
+.topo img{
+
+	position: absolute;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.mirror {
+
+	padding: 20px;
+
+}
+
+.mirror h1{
+
+	background-color: #b5b4b0;
+	padding: 5px;
+	display: block;
+}
+
+.mirror p{
+
+	text-indent: 35px;
+	line-height: 25px;
+}
+
+.centro{
+
+	background-color: #f2eded;
+	border: solid 1px #ccc;
+	text-align: center;
+	padding: 20px 10px;
+	width: 55%;
+	position: relative;
+	left: 15%;
+}
+
+.centro figcaption{
+
+	font-style: italic;
+	padding: 10px 5px 0;
+}
+
+.historia h2{
+
+	border-bottom: solid 2px #000;
+}
+
+.familia-pelho{
+
+    background-color: #f2eded;
+	border: solid 1px #ccc;
+	text-align: center;
+	padding: 10px 5px;
+	
+	float: right;
+	margin-top: 0;
+	margin-right: 0;
+
+}
+
+.familia-pelho img{
+
+	width: 90%;
+}
+
+.historia p{
+
+	text-indent: 50px;
+	text-align: justify;
+}
+
+.diferenciais h2{
+
+	border-bottom: solid 2px #000;
+}
+
+.rodape{
+
+	padding: 10px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.rodape img{
+
+	display: inline-block;
+	width: 30%;
+}
+
+.rodape p{
+
+	display: inline-block;
+	padding: 30px ;
+	color: #928888;
+	margin: 0;
+	box-sizing: border-box;
+}
