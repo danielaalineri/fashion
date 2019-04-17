@@ -2,6 +2,16 @@
 
 /*INDEX*/
 
+
+body{
+
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+	color: #333333;
+
+}
+
 /*HEADER*/
 
 
@@ -69,4 +79,135 @@ header{
 }
 
 
+/*PÁGINA SOBRE*/
 
+
+#conteudo{
+
+top: 150px;
+width: 940px;
+left: 230px;
+position: absolute;
+
+}
+
+.mirror {
+
+	padding: 20px;
+
+}
+
+.mirror h1{
+
+	background-color: #b5b4b0;
+	padding: 5px;
+	display: block;
+}
+
+.mirror p{
+
+	text-indent: 35px;
+	line-height: 25px;
+	margin-top: 30px;
+}
+
+.centro{
+
+	background-color: #f2eded;
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 550px;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.centro figcaption{
+
+	font-style: italic;
+	padding: 10px 5px 0;
+}
+
+.centro img{
+
+	width: 100%;
+}
+
+.historia{
+	margin-top: 20px;
+}
+
+.historia h2{
+
+	border-bottom: solid 2px #000;
+	line-height: 30px;
+}
+
+.historia p{
+
+	text-indent: 30px;
+	text-align: justify;
+	margin-top: 30px;
+}
+
+.familia-pelho{
+
+    background-color: #f2eded;
+	border: solid 1px #ccc;
+	text-align: center;
+	padding: 20px 5px 30px;
+    float: right;
+    margin: 30px 0 10px 10px;
+	
+
+}
+
+.familia-pelho img{
+
+	width: 90%;
+}
+
+.diferenciais{
+
+	margin-top: 20px;
+}
+
+.diferenciais h2{
+
+	border-bottom: solid 2px #000;
+	line-height: 30px;
+}
+
+.diferenciais ul{
+
+	margin-top: 20px;
+}
+
+.diferenciais li{
+
+	list-style: disc;
+	list-style-position: inside;
+	line-height: 20px;
+}
+
+.rodape{
+
+	padding: 10px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.rodape img{
+
+	display: inline-block;
+	width: 30%;
+}
+
+.rodape p{
+
+	display: inline-block;
+	padding: 30px ;
+	color: #928888;
+	margin: 0;
+	box-sizing: border-box;
+}
