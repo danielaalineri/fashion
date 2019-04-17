@@ -1,0 +1,72 @@
+/*PROJETO FASHION*/
+
+/*INDEX*/
+
+/*HEADER*/
+
+
+.container{
+
+	margin: 0 auto;
+	width: 940px;
+}
+
+header{
+
+	position: relative;
+	
+}
+
+
+.logotipo{
+
+	position: relative;
+	top: 20px;
+	left: 50px;
+}
+.sacola{
+
+	background-image: url(../img/sacola.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	font-size: 14px;
+	text-align: right;
+	width: 140px;
+	padding-right: 35px;
+	padding-top: 8px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
+
+/*MENU OPÇÕES*/
+
+.menu-opcoes{
+
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+
+.menu-opcoes ul{
+
+	font-size: 15px;
+}
+
+.menu-opcoes a{
+
+	color: #003366;
+	text-decoration: none;
+}
+
+.menu-opcoes ul li{
+
+	display: inline-block;
+	margin-left: 20px;
+}
+
+
+
