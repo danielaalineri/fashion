@@ -72,6 +72,15 @@ header{
 	text-decoration: none;
 }
 
+.menu-opcoes a:hover{
+
+	color: #007dc6;
+}
+
+.menu-opcoes a:active{
+
+	color: #867dc6;
+}
 .menu-opcoes ul li{
 
 	display: inline-block;
@@ -88,6 +97,31 @@ margin-right: 10px;
 width: 230px;
 
 }
+
+.menu-departamentos li ul{
+
+	display: none;
+}
+
+
+.menu-departamentos li:hover ul{
+
+	display: block;
+}
+
+
+.menu-departamentos ul ul li{
+
+    background-color: #dcdcdc;
+
+}
+
+.menu-departamentos li li a::before{
+
+	content: '\272A ';
+	padding-right: 5px;
+}
+
 
 .busca button{
 
@@ -108,6 +142,11 @@ width: 230px;
 
 	margin: 10px;
 
+}
+
+input{
+
+	border-radius: 15px;
 }
 
 .menu-departamentos li{
@@ -160,6 +199,13 @@ width: 230px;
 	margin: 10px 0;
 	padding: 10px;
 	width: 445px;
+}
+
+.painel h2::before{
+
+	content: '\2756';
+	padding-right: 5px;
+	opacity: 0.4;
 }
 
 .novidades{
@@ -236,6 +282,20 @@ text-decoration: none;
 	text-indent: 35px;
 	line-height: 25px;
 	margin-top: 30px;
+}
+
+.mirror p::first-letter{
+
+	font-weight: bold;
+}
+
+.mirror h1+p{
+	text-indent: 0;
+}
+
+.mirror :not(p) + p::first-line{
+
+	font-variant: small-caps;
 }
 
 .centro{
