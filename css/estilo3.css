@@ -224,8 +224,7 @@ input{
 	width: 445px;
 	border-radius: 4px;
 	box-shadow: inset 1px 1px 4px #999;
-<<<<<<< HEAD
-=======
+
 }
 
 .painel h2{
@@ -234,7 +233,7 @@ input{
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-bottom: 10px;
->>>>>>> responsivo
+
 }
 
 .painel h2::before{
@@ -243,7 +242,7 @@ input{
 	padding-right: 5px;
 	opacity: 0.4;
 	text-shadow: 3px 3px 2px rgba(255,255,255, 0.8);
-<<<<<<< HEAD
+
 }
 
 .novidades{
@@ -255,8 +254,7 @@ input{
 
 	
 	float: right;
-=======
->>>>>>> responsivo
+
 }
 
 .painel li{
@@ -271,7 +269,6 @@ input{
 }
 
 .painel li:hover{
-<<<<<<< HEAD
 
 	box-shadow: 0 0 5px #333;
 	background-color: rgba(255,255,255,0.8);
@@ -280,13 +277,12 @@ input{
 }
 
 .painel h2{
-=======
->>>>>>> responsivo
+
+
 
 	box-shadow: 0 0 5px #333;
-	background-color: rgba(255,255,255,0.8);
-	transition: 0.7s;
-	transform: scale(1.2) rotate(-5deg);
+	
+	
 }
 
 .painel li:nth-child(2n):hover {
