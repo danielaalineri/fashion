@@ -223,7 +223,7 @@ input{
 	padding: 10px;
 	width: 445px;
 	border-radius: 4px;
-	box-shadow: inset 1px 1px 4px #999;
+	box-shadow: inset 1px 1px 4px rgba(243, 234, 238, 0.5);
 
 }
 
@@ -241,7 +241,7 @@ input{
 	content: '\2756';
 	padding-right: 5px;
 	opacity: 0.4;
-	text-shadow: 3px 3px 2px rgba(255,255,255, 0.8);
+	text-shadow: 3px 3px 2px rgba(213,192,202, 0.8);
 
 }
 
@@ -276,14 +276,9 @@ input{
 	transform: scale(1.2) rotate(-5deg);
 }
 
-.painel h2{
 
-
-
-	box-shadow: 0 0 5px #333;
 	
-	
-}
+
 
 .painel li:nth-child(2n):hover {
 	transform: scale(1.2) rotate(5deg);
@@ -562,7 +557,7 @@ background-image: url(../img/twitter.png);
    width: 30%;
  }
 
- 
+
 
  .painel img {
    width: 100%;
