@@ -28,12 +28,18 @@ header{
 }
 
 
-.logotipo{
+.logotipo {
 
 	position: relative;
 	top: 20px;
 	left: 5px;
+
 }
+
+
+
+
+
 .sacola{
 
 	background-image: url(../img/sacola.png);
@@ -84,9 +90,10 @@ header{
 .menu-opcoes ul li{
 
 	display: inline-block;
-	margin-left: 20px;
+	margin-left: 10px;
 }
 
+/*BUSCA */
 .busca,
 .menu-departamentos{
 
@@ -97,6 +104,34 @@ margin-right: 10px;
 width: 230px;
 
 }
+
+.busca button{
+
+	/* adicionando imagem */
+    background-image: url(../img/busca.png);
+    background-repeat: no-repeat;
+    border: none;
+    /* tamanho da imagem */
+    width: 20px;
+    height: 20px;
+    /* image replacement */
+    text-indent: -9999px;
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos h2{
+
+	margin: 10px;
+
+}
+
+.busca{
+
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
 
 .menu-departamentos li ul{
 
@@ -123,26 +158,6 @@ width: 230px;
 }
 
 
-.busca button{
-
-	/* adicionando imagem */
-    background-image: url(../img/busca.png);
-    background-repeat: no-repeat;
-    border: none;
-    /* tamanho da imagem */
-    width: 20px;
-    height: 20px;
-    /* image replacement */
-    text-indent: -9999px;
-}
-
-.busca h2,
-.busca form,
-.menu-departamentos h2{
-
-	margin: 10px;
-
-}
 
 .busca{
 
@@ -200,6 +215,8 @@ input{
 	clear: right;
 }
 
+/* PAINÉIS */
+
 .painel{
 
 	margin: 10px 0;
@@ -207,6 +224,17 @@ input{
 	width: 445px;
 	border-radius: 4px;
 	box-shadow: inset 1px 1px 4px #999;
+<<<<<<< HEAD
+=======
+}
+
+.painel h2{
+
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+>>>>>>> responsivo
 }
 
 .painel h2::before{
@@ -215,6 +243,7 @@ input{
 	padding-right: 5px;
 	opacity: 0.4;
 	text-shadow: 3px 3px 2px rgba(255,255,255, 0.8);
+<<<<<<< HEAD
 }
 
 .novidades{
@@ -226,6 +255,8 @@ input{
 
 	
 	float: right;
+=======
+>>>>>>> responsivo
 }
 
 .painel li{
@@ -235,10 +266,12 @@ input{
 	width: 140px;
 	margin: 2px;
 	padding-bottom: 10px;
+	transition: 0.7s;
 
 }
 
 .painel li:hover{
+<<<<<<< HEAD
 
 	box-shadow: 0 0 5px #333;
 	background-color: rgba(255,255,255,0.8);
@@ -247,11 +280,17 @@ input{
 }
 
 .painel h2{
+=======
+>>>>>>> responsivo
 
-	font-size: 24px;
-	font-weight: bold;
-	text-transform: uppercase;
-	margin-bottom: 10px;
+	box-shadow: 0 0 5px #333;
+	background-color: rgba(255,255,255,0.8);
+	transition: 0.7s;
+	transform: scale(1.2) rotate(-5deg);
+}
+
+.painel li:nth-child(2n):hover {
+	transform: scale(1.2) rotate(5deg);
 }
 
 
@@ -264,15 +303,18 @@ text-decoration: none;
 
 }
 
+
 .novidades{
 
+    float: left;
 	background-color:  #f5dcdc;
 	background: linear-gradient(#f5dcdc, #bebef4);
 
 }
 
 .mais-vendidos{
-
+    
+    float: right;
 	background-color: #dcdcf5;
 	background: linear-gradient(#dcdcf5, #f4bebe);
 }
@@ -397,6 +439,10 @@ text-decoration: none;
 	line-height: 20px;
 }
 
+
+/*RODAPÉ*/
+
+
 footer{
 
 	background-image: url(../img/fundo-rodape.png);
@@ -408,6 +454,8 @@ footer .container{
 
 	position: relative;
 }
+
+/* MÍDIAS SOCIAIS */
 
 .social{
 
@@ -448,3 +496,78 @@ background-image: url(../img/twitter.png);
 	background-image: url(../img/googleplus.png);
 }
 
+/* MOBILE */
+
+@media (max-width: 939px){
+
+	.container{
+		width: 96%;
+	}
+
+	 .logotipo{
+   
+   width: 100%;
+   position: relative;
+   
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+ }
+
+ .logotipo img{
+
+ 	width: 100%;
+ 	
+ }
+
+
+ .sacola{
+   display: none;
+ }
+
+ .menu-opcoes {
+   position: relative;
+   top: 30px;
+   text-align: center;
+   display: inline-block;
+
+ }
+
+ .menu-opcoes ul li {
+   display: inline-block;
+   margin: 5px;
+ }
+
+ .menu-departamentos li:hover ul{
+
+	display: block;
+}
+
+.menu-departamentos li ul{
+
+	display: none;
+}
+
+
+ .busca,
+ .menu-departamentos,
+ .banner-destaque img {
+   margin-right: 0;
+   width: 100%;
+ }
+
+ .painel {
+   width: auto;
+ }
+
+ .painel li {
+   width: 30%;
+ }
+
+ .painel img {
+   width: 100%;
+ }
+
+}
